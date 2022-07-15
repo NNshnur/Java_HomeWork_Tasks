@@ -36,7 +36,7 @@ public class HomeWork_Lesson1 {
 
         int a = 3;
         int b = 5;
-        int formula = (a+b)^2;
+        int formula = (a+b) * (a+b);
         System.out.println(formula);
 
         // Task 2.3
@@ -50,7 +50,8 @@ public class HomeWork_Lesson1 {
         num3 [3] = num1[3] * num2[3];
         num3 [4] = num1[4] * num2[4];
         int [] combinedArray = new int [] { 1, 2, 5, 7, 10, 2, 3, 2, 17, 15};
-
+        System.out.println("My concatenated array : ");
+        System.out.println(Arrays.toString(combinedArray));
         System.out.println("My first array is  ");
         System.out.println(Arrays.toString(num1));
         System.out.println("My second array is  ");
